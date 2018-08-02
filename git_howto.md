@@ -3,7 +3,7 @@
 2. Download and install Git for Windows. https://git-scm.com/download/win (make sure `Windows Explorer integration` is checked on the installer. Everything else can be left to default.)
 3. Once Git is installed, right click where you'll want to have your Legacy TZ files.
 4. Select `Git Bash here`.
-5. Type `git clone https://github.com/zsd7200/legacy-tz`. It will then prompt you for your GitHub credentials.
+5. Type `git clone https://github.com/truezetsu/legacy-tz`. It will then prompt you for your GitHub credentials.
 6. After typing your GitHub credentials, a folder named `legacy-tz` will be created wherever you opened Git Bash from. Legacy TZ will then be downloaded, and the folder will be configured to work with that Git repository.
 
 
