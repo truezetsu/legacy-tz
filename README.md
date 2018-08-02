@@ -1,4 +1,4 @@
-![Legacy TZ logo](https://github.com/zsd7200/legacy-tz/raw/master/logo.png)
+![Legacy TZ logo](https://github.com/truezetsu/legacy-tz/raw/master/logo.png)
 
 *A build of Legacy TE created by True Zetsubou.*
 
