@@ -1,0 +1,1 @@
+To replace Almanaccare's announcer pack with the default Project M 3.6 announcer, copy the 220.sawnd, 221.sawnd, 222.sawnd and 223.sawnd files and navigate to LegacyTE > pf > sfx and replace the files there. 

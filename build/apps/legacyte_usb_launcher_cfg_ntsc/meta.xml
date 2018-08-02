@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+<name>Legacy TE USB Launcher</name>
+<version>NTSC</version>
+<release_date>20180513</release_date>
+<coder>Legacy Team, waffeln, Kirbeast</coder>
+<short_description>Legacy TE USB Launcher</short_description>
+<long_description>
+Legacy Tournament Edition is a custom build of Project M that aims to be an alternate option to Project M 3.6 for use in tourneys, smash fests, and netplay matches. TE leaves PM 3.6's character roster, movesets, and universal physics engine untouched while offering additional tourney-legal skins and stages. Project M, the modification of Brawl upon which TE is based, is inspired by Super Smash Bros. Melee's gameplay and brings technical variety to all characters.
+
+This is a modified version of CFG Loader designed for instantly loading Legacy TE from USB.
+Twitter: @ProjectMNexus
+Discord: Kirbeast#2742
+</long_description>
+<arguments>
+<arg>RSBE01</arg>
+<arg>intro = 0</arg>
+<arg>device = usb</arg>
+<arg>ios = 249</arg>
+<arg>partition = FAT1</arg>
+<arg>ocarina = 1</arg>
+<arg>hooktype = axframe</arg>
+</arguments></app>

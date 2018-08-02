@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Legacy TE - Masquerade Tool</title>
+	<link rel="shortcut icon" href="code/images/favicon.png" />
+	<link rel="stylesheet" href="code/css/reset.min.css" />
+	<link rel="stylesheet" href="code/css/main.min.css" />
+
+	<script src="code/js/jquery-1.11.1.min.js"></script>
+	<script src="code/js/main.min.js"></script> <!--Contains the actual work>
+</head>
+
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="inner_container" style="width:1210px;">
+			<a id="logo" href="http://www.smashbros.co/te"><img src="code/images/logo.png" alt="Legacy TE logo" /></a>
+		</div>
+	</div>
+	<!-- End Header -->
+    
+	<!-- Template -->
+	<div id="template-home">
+		<div class="inner_container clearfix">
+			<h1>Masquerade Tool <span style="color:#3FF;">2.0</span></h1>
+            
+            <div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Mario</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter1" name="char-fighter1">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter1" checked="checked"><label for="team-fighter1" class="css-label" ></label>
+			  <span id="charPicker-fighter1"></span>
+
+			  			  	
+			</form><br /></div>
+
+            <div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Donky Kong</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter2" name="char-fighter2">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter2" checked="checked"><label for="team-fighter2" class="css-label" ></label>			  
+			  <span id="charPicker-fighter2"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Link</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter3" name="char-fighter3">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter3" checked="checked"><label for="team-fighter3" class="css-label" ></label>			  
+			  <span id="charPicker-fighter3"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Samus</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter4" name="char-fighter4">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter4"><label for="team-fighter4" class="css-label" ></label>			  
+			  <span id="charPicker-fighter4"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Zero Suit Samus</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter5" name="char-fighter5">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter5"><label for="team-fighter5" class="css-label" ></label>			  
+			  <span id="charPicker-fighter5"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Yoshi</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter6" name="char-fighter6">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter6"><label for="team-fighter6" class="css-label" ></label>			  
+			  <span id="charPicker-fighter6"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Kirby</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter7" name="char-fighter7">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter7" checked="checked"><label for="team-fighter7" class="css-label" ></label>			  
+			  <span id="charPicker-fighter7"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Fox</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter8" name="char-fighter8">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter8" checked="checked"><label for="team-fighter8" class="css-label" ></label>			  
+			  <span id="charPicker-fighter8"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Pikachu</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter9" name="char-fighter9">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter9" checked="checked"><label for="team-fighter9" class="css-label" ></label>			  
+			  <span id="charPicker-fighter9"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Luigi</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter10" name="char-fighter10">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter10" checked="checked"><label for="team-fighter10" class="css-label" ></label>			  
+			  <span id="charPicker-fighter10"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Captain Falcon</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter11" name="char-fighter11">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter11" checked="checked"><label for="team-fighter11" class="css-label" ></label>			  
+			  <span id="charPicker-fighter11"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Ness</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter12" name="char-fighter12">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter12" checked="checked"><label for="team-fighter12" class="css-label" ></label>			  
+			  <span id="charPicker-fighter12"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Bowser</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter13" name="char-fighter13">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter13" checked="checked"><label for="team-fighter13" class="css-label" ></label>			  
+			  <span id="charPicker-fighter13"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Peach</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter14" name="char-fighter14">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter14" checked="checked"><label for="team-fighter14" class="css-label" ></label>			  
+			  <span id="charPicker-fighter14"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Zelda/Sheik</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter15" name="char-fighter15">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter15" checked="checked"><label for="team-fighter15" class="css-label" ></label>			  
+			  <span id="charPicker-fighter15"></span>
+			</form><br /></div>
+
+<!--			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Sheik</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter16" name="char-fighter16">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter16" checked="checked"><label for="team-fighter16" class="css-label" ></label>			  
+			  <span id="charPicker-fighter16"></span>
+			</form><br /></div>
+-->
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Ice Climbers</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter17" name="char-fighter17">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter17" checked="checked"><label for="team-fighter17" class="css-label" ></label>			  
+			  <span id="charPicker-fighter17"></span>
+			</form><br /></div>
+
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Marth</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter18" name="char-fighter18">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter18" checked="checked"><label for="team-fighter18" class="css-label" ></label>			  
+			  <span id="charPicker-fighter18"></span>
+			</form><br /></div>
+		
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Mr Game & Watch</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter19" name="char-fighter19">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			  Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter19" checked="checked"><label for="team-fighter19" class="css-label" ></label>			  
+			  <span id="charPicker-fighter19"></span>
+			</form><br /></div>
+			
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Falco</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter20" name="char-fighter20">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter20" checked="checked"><label for="team-fighter20" class="css-label" ></label>			  
+			  <span id="charPicker-fighter20"></span>
+			</form><br /></div>
+
+
+			<div id="content" style="width:1280px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Ganondorf</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter21" name="char-fighter21">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15" selected>15</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter21" checked="checked"><label for="team-fighter21" class="css-label" ></label>
+			   Third Team Colors
+			  <input type="checkbox" class="css-checkbox" name="3team" id="tripleteam-fighter21" checked="checked"><label for="tripleteam-fighter21" class="css-label" ></label>				  
+			  <span id="charPicker-fighter21"></span>
+			</form><br /></div>
+						
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Wario</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter22" name="char-fighter22">
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>					
+					<option value="14" selected>14</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter22" checked="checked"><label for="team-fighter22" class="css-label" ></label>
+			<!--   Third Team Colors
+			  <input type="checkbox" class="css-checkbox" name="3team" id="tripleteam-fighter22"><label for="tripleteam-fighter22" class="css-label" ></label>
+			  -->		  
+			  <span id="charPicker-fighter22"></span>
+			</form><br /></div>
+
+
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Metaknight</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter23" name="char-fighter23">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter23" checked="checked"><label for="team-fighter23" class="css-label" ></label>				  
+			  <span id="charPicker-fighter23"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Pit</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter24" name="char-fighter24">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter24"><label for="team-fighter24" class="css-label" ></label>				  
+			  <span id="charPicker-fighter24"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Olimar</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter25" name="char-fighter25">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter25"><label for="team-fighter25" class="css-label" ></label>				  
+			  <span id="charPicker-fighter25"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Lucas</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter26" name="char-fighter26">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter26" checked="checked"><label for="team-fighter26" class="css-label" ></label>				  
+			  <span id="charPicker-fighter26"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Diddy Kong</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter27" name="char-fighter27">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter27" checked="checked"><label for="team-fighter27" class="css-label" ></label>				  
+			  <span id="charPicker-fighter27"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Charizard</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter28" name="char-fighter28">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter28" checked="checked"><label for="team-fighter28" class="css-label" ></label>				  
+			  <span id="charPicker-fighter28"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Squirtle</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter29" name="char-fighter29">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter29" checked="checked"><label for="team-fighter29" class="css-label" ></label>				  
+			  <span id="charPicker-fighter29"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Ivysaur</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter30" name="char-fighter30">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter30" checked="checked"><label for="team-fighter30" class="css-label" ></label>				  
+			  <span id="charPicker-fighter30"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">King Dedede</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter31" name="char-fighter31">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter31" checked="checked"><label for="team-fighter31" class="css-label" ></label>				  
+			  <span id="charPicker-fighter31"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Lucario</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter32" name="char-fighter32">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter32" checked="checked"><label for="team-fighter32" class="css-label" ></label>				  
+			  <span id="charPicker-fighter32"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Ike</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter33" name="char-fighter33">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter33" checked="checked"><label for="team-fighter33" class="css-label" ></label>				  
+			  <span id="charPicker-fighter33"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1280px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">R.O.B.</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter34" name="char-fighter34">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15" selected>15</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter34" checked="checked"><label for="team-fighter34" class="css-label" ></label>
+			   Third Team Colors
+			  <input type="checkbox" class="css-checkbox" name="3team" id="tripleteam-fighter34" checked="checked"><label for="tripleteam-fighter34" class="css-label" ></label>				  
+			  <span id="charPicker-fighter34"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Jigglypuff</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter35" name="char-fighter35">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter35" checked="checked"><label for="team-fighter35" class="css-label" ></label>				  
+			  <span id="charPicker-fighter35"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1280px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Toon Link</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter36" name="char-fighter36">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15" selected>15</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter36" checked="checked"><label for="team-fighter36" class="css-label" ></label>
+			   Third Team Colors
+			  <input type="checkbox" class="css-checkbox" name="3team" id="tripleteam-fighter36" checked="checked"><label for="tripleteam-fighter36" class="css-label" ></label>			  
+			  <span id="charPicker-fighter36"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Wolf</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter37" name="char-fighter37">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter37" checked="checked"><label for="team-fighter37" class="css-label" ></label>				  
+			  <span id="charPicker-fighter37"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Snake</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter38" name="char-fighter38">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter38" checked="checked"><label for="team-fighter38" class="css-label" ></label>				  
+			  <span id="charPicker-fighter38"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1280px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Sonic</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter39" name="char-fighter39">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14"  selected>14</option>
+					<option value="15">15</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter39" checked="checked"><label for="team-fighter39" class="css-label" ></label>	
+			   Third Team Colors
+			  <input type="checkbox" class="css-checkbox" name="3team" id="tripleteam-fighter39" checked="checked"><label for="tripleteam-fighter39" class="css-label" ></label>			  
+			  <span id="charPicker-fighter39"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Mewtwo</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter40" name="char-fighter40">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter40" checked="checked"><label for="team-fighter40" class="css-label" ></label>				  
+			  <span id="charPicker-fighter40"></span>
+			</form><br /></div>
+			
+			<div id="content" style="width:1200px; padding:10px; margin:0 10px 0 0; float:top;"><form action="">
+                <span style="font-weight:bold"><font size='4' color="#8f6AFF"><div class="charName">Roy</div>:   </span></font>Number of costumes?
+				<select style="width:50px" id="costume-amount-fighter41" name="char-fighter41">
+					<option value="4">4</option>
+					<option value="5">5</option>				
+					<option value="6">6</option>
+					<option value="7">7</option>				
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+			  </select>
+			   Second Team Colors
+			  <input type="checkbox" class="css-checkbox" name="2team" id="team-fighter41" checked="checked"><label for="team-fighter41" class="css-label" ></label>				  
+			  <span id="charPicker-fighter41"></span>
+			</form><br /></div>
+			<!-- Content -->
+			<div id="content" style="width:700px; float: top; padding:20px;">
+                <form action="">
+                </form>
+                <a id="generate_codes" style="width:135px; margin-bottom:30px;" class="btn" href="textures.php">Generate Codes</a>
+                <div id="demCodes" style="font-family:'Courier New', Courier, monospace;"></div>
+                                
+			</div>
+		</div>
+	</div>
+	<!-- End Template -->
+
+	<!-- Footer -->
+		<div id="footer">
+	<ul class="clearfix">
+		<li class="float_left"><p style="display:inline">Smash Bros. Legacy is not endorsed by nor affiliated with Nintendo.</p><p> "Super Smash Bros." and similar trademarks are copyright Nintendo Co., Ltd.</p></li>
+		<li class="float_right">App developed by Denz, Yohan1044. Uses Cascading Style Sheets by SOJ</li>
+	</ul>
+</div>
+	<!-- End Footer -->
+</body>
+</html>

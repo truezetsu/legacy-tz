@@ -1,0 +1,802 @@
+© 2008 Nintendo / HAL Laboratory, Inc.
+Characters: © Nintendo / HAL Laboratory, Inc. / Pokemon. / Creatures Inc. / 
+GAME FREAK Inc. / SHIGESATO ITOI / APE Inc. / INTELLIGENT SYSTEMS / Konami Digital Entertainment Co. Ltd. / SEGA
+
+Project M Concept & Design by the Project M Development Team.
+For more information on Project M, visit https://pmunofficial.com/en/
+
+Super Smash Bros. Legacy Tournament Edition, a Project M 3.6 build, is brought to you by the Smash Bros. Legacy TE dev team. Smash Bros. Legacy is not continuing Project M's development, nor is it in any way affiliated with Nintendo. 
+Visit http://smashbroslegacy.com for more details.
+
+########################################
+Legacy TE Dev Team
+########################################
+
+davidvkimball
+Yohan1044
+WorseDoughnut
+Fracture
+Scout
+Dranakar
+MarioDox
+DukeItOut
+PyotrLuzhin
+Moblin
+EggTimer
+MetalLegacy
+Puzzled
+mawwwk
+Ca$inoWolf
+SundarkSoldier
+Layell
+soopercool101
+ZaTaisho
+LnktheWolf
+denz
+chasemcdizzle
+
+########################################
+Setup
+########################################
+
+Materials needed:
+2GB non-SDHC SD card
+Nintendo Wii (or Wii U) and one Wii Remote
+A copy of Super Smash Bros. Brawl
+
+Instructions (hackless): 
+
+Run Brawl and be sure that you have deleted all custom stages.
+Format your SD card and be sure it's formatted to FAT32.
+Simply extract the folders from the zip file provided in the download, and place them in the root of your SD card (in other words copy and paste the files from your PC to the card). 
+After inserting your SD card into your Wii, launch Brawl, and go to Stage Builder. If done correctly, the screen should freak out for a second, and then you should get to a screen that looks like this: http://i.imgur.com/sSJICHZ.png
+
+From here select play, wait for a bit, and Legacy TE should launch from there.
+
+For more instructions, watch this video: http://smashbros.co/TOVideo
+
+########################################
+Legacy TE Community
+########################################
+
+Discord: http://discord.gg/legacy
+Website: http://smashbroslegacy.com/
+Smashboards thread: https://smashboards.com/threads/376318/
+1.0 Trailer: http://smashbros.co/ltetrailer
+2.0 Trailer: http://smashbros.co/ltetrailer2
+
+########################################
+Legacy TE Special Thanks (from davidvkimball)
+########################################
+
+Atlas, lostmyhead, and Elliot Gindi for all the vital conversations early on and helping bring the TE vision to life early on in its concepting stage. 
+
+Ca$ino Wolf for consistently playtesting TE and providing feedback from the perspective of a top competitive player.
+
+Yohan1044 for his unparalleled meticulousness in everything he does. Absolutely essential for this build as a leader and a modder. 
+
+WorseDoughnut for being an amicable fellow project lead and a great friend. 
+
+Moe (Mac Cornick) for lovingly creating stock icons based on the current TE poses and renders for 1.1. 
+
+Fracture for working wonders with his replay code, CSS controls code, and the incredible feat that's the TE code menu. 
+
+DukeItOut for expanding what's possible with stage sound and graphics effects and the Alternate Stage Loader. 
+
+tryptech, MetalLegacy, Layell, EggTimer, and Xenthos from the Cosmetic Standardization Project Backroom for helping make fabulous character cosmetics and making them work for TE 2.0. This was no small feat! 
+
+########################################
+Testing + Feedback
+########################################
+
+Huge thanks goes to ZaTaisho and Drazerg for the detailed playtesting they have done for 1.0. Each came back with lists, images, and specific steps to fix any oddities or bugs they may have found. Thanks to ZaTaisho and codes for bringing early builds to local tournaments and collecting feedback from peers. Thank you to both FroDu and Ca$ino Wolf for the hours of testing as well as both of them for saving matches for the TE Trailer. 
+
+Thanks to ZugZug for being TE 1.0's blind playtester and jumping right in. 
+
+Thanks to mawwwk for being an outstanding playtester and providing incredible feedback so that stages in TE 2.0 are lagless, truly 1:1, and optimized for tournament play. He was engaged and involved every step of the way, and is responsible for a lot of the match clips in the TE 2.0 trailers. TE 2.0 would not have the polish it has without him.
+
+Thanks to our blind playtesters for 2.0: Ash_Marks, Kirbeast, PoptheKirby, KimballDonald, and waffeln for stepping up and providing feedback during the final stretch. 
+
+########################################
+Features + Codes
+########################################
+
+Costume Expansion -
+
+Masquerade Costumes expansion by denz and Yohan1044. Original code by ds22.
+15 Costume expansion (originally for Pig Ganon) by PyotrLuzhin.
+Three Team costume preservation for Ganon, Toon Link, R.O.B. and Sonic by PyotrLuzhin and Yohan1044.
+Transforming Characters Switch Stocks by PyotrLuzhin.
+Hold Z for Dark Characters, R for Fake (with working SFX) by PyotrLuzhin, codes, ASF1nk, and Yohan1044. 
+Dark Kirby can use copy abilities by PyotrLuzhin, edits by Yohan1044.
+Dark/Fake Solo Mode fix by Fracture.
+
+
+Stage Expansion and Stage Effects -
+
+Modifications to ASL thanks to Yohan1044 and DukeItOut. Original ASL code thanks to Dantarion, Almas, wiiztec, and Magus. 
+Modification to RSBE thanks to DukeItOut. Original RSBE code thanks to InternetExplorer.
+ASL Helper for Solo Modes, GFX, SFX and Replays code by DukeItOut. 
+Customizable Stage Soundback Loader Engine and Data by DukeItOut and Yohan1044. 
+Customizable Stage Effect Resource Engine and Data by DukeItOut and Yohan1044.
+Saffron City, Metal Cavern, and Rumble Falls don't slow animations during countdown by DukeItOut.
+Hold R on Smashville for a K.K. Slider Concert by DukeItOut. 
+WarioWare Minigame songs switch with M02 instead of M01 by DukeItOut.
+
+
+Quality of Life Features -
+
+Code Menu features, including Draw DI, infinite shields, select character percent, endless friendlies, auto save replays, and many others by Fracture. 
+Fracture Replays code created and developed by Fracture.
+Customize Controls on the CSS by Fracture. 
+CSS Tags with Rumble are Teal, X to Toggle by ChaseMcDizzle, edits by Yohan1044 and Fracture.
+Holding L when new name at CSS goes to custom controls & back to CSS by ChaseMcDizzle.
+CSS keeps character choice for inactive ports between matches by Fracture. 
+Boot directly to CSS in Legacy TE by PyotrLuzhin.
+Disable challenger approaching by ds22.
+Hold L+R+X To Skip Results Screen by PyotrLuzhin, Yohan1044.
+Salty Runback Fix for Lylat and Castle Siege by DukeItOut.
+C-Stick Debug Mode and Slow Mode fix by Fracture. 
+
+
+
+
+Other -
+
+Modified SD Root location, RSBE directory, and ASL by HyperL!nk, Yohan1044, codes, and davidvkimball. Original codes by Dantarion, Almas, wiiztec, Magus, InternetExplorer.
+Team Glow CSS Toggle by PyotrLuzhin, Fracture, and Yohan1044. 
+Random Element Mode by PyotrLuzhin.
+Load Player Tags on Win Screen by PyotrLuzhin
+Random CPU DI by ChaseMcDizzle and Fracture.
+Default CPU Level is 9 by codes.
+CPUs can attack each other in Training Mode by Fracture, originally by wiiztec. 
+File Patch Code v3.5.1b by PyotrLuzhin, original code by Phantom Wings.
+Load Common2.pac from the SD Card by DukeItOut.
+
+
+HD textures for Brawl, Project M and Legacy TE are thanks to Yami 2b, tryptech, davidvkimball, MetalLegacy, Layell, EggTimer, Xenthos, Psycho, Yohan1044, and Puzzled.
+
+########################################
+PSA + Motion + Fighter Modules:
+########################################
+
+PSA -
+
+Costume Slot Specific effects by Yohan1044, with credit to Draco_the, and KingJigglypuff. (SFX and GFX of added costumes, such as additional run trails for Sonic and arm trails for ROB, were performed without changes to vPM behavior.)
+ds22 memory leak fixes by ds22, implemented by ds22 and Yohan1044
+Shiny Pokemon entrances implemented by Yohan1044, concept by the PMDT
+Team Glow compatibility of select PSAs implemented by Yohan1044
+
+You can view a detailed breakdown of the edits in the "LegacyTE_PSA_edits.txt" file in the LegacyTE\pf\fighter folder. And of course, crazy thanks the PMDT for all the original PSAs.
+
+Motion -
+
+Headband Physics for Jigglypuff by the PMDT, reimplemented by davidvkimball to not crash when fighting Diddy Kong.
+Lightbulb Effects for Pikachu by KingJigglypuff
+Diddy Kong Victory Blink Fix by Yohan1044
+
+Module -
+
+PyotrLuzhin for making sense of and modifying .rel files, allowing Kirby to copy abilities for his Z alt and R alt.
+
+########################################
+Characters + Skins + Portraits:
+########################################
+
+All renders and cosmetic assets were created by davidvkimball, tryptech, MetalLegacy, Layell, EggTimer, and Xenthos from the Cosmetic Standardization Project Backroom. 
+
+MARIO
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Vacation Mario by DrDean
+Dark - Builder Mario (for Project M) by Puzzled, AlGeorgeRomo
+
+
+DONKEY KONG
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+09 - [PM 3.6] Pink Boxer Donkey Kong by MetalLegacy, davidvkimball with credit to the PMDT for the original model. 
+13 - Funky Kong by TOCK
+Dark - Wind-up DK by StarWaffle, Nanobuds
+
+
+LINK
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Hyrule Warriors Link (Brawlified) by Moblin, iwantgames, Taiko, Satoshi with credit to DSX8, ManikDX, and Large Leader [edited by MarioDox]
+Dark - Skyward Sword Link by AlGeorgeRomo, Mach 7 and IwantGames
+
+
+SAMUS
+Pose by Nanobuds, with modifications by davidvkimball, rendered by CSProject Backroom
+09 - 25% Corrupted PED Suit by SJS, Allbait, Nanobuds [edited by EggTimer with credit to Shranux]
+13 - Dark Samus by Nanobuds, Theytah with credit to russmar
+Dark - 75% Corrupted PED Suit by SJS, Allbait, Nanobuds [edited by EggTimer with credit to Shranux]
+
+
+YOSHI
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Yarn Yoshi by MetalLegacy with credit to Taigiry
+Dark - Dorrie Yoshi by EggTimer, Theytah
+
+
+KIRBY
+Pose by davidvkimball, model polish by tryptech, HD eyes by MetalLegacy, rendered by CSProject Backroom
+08 - Chocolate Kirby by LnktheWolf with vPM Kirby Hats by Yohan1044
+09 - Cherry Kirby by LnktheWolf with vPM Kirby Hats by Yohan1044
+13 - Fighter Kirby by Nanobuds with credit to the PMDT for Headband Jigglypuff, Reserved for the angry eyes
+Dark - Yarn Kirby by Theytah 
+
+
+FOX
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Marcus McCloud by MaximusEXE with credit to Syntax Error
+Dark - Melee James McCloud by bizzozeron with credit to Tock for the original shades model, the PMDT for Melee Fox
+
+
+PIKACHU
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+07 - Detective Pikachu by davidvkimball, MetalLegacy with credit to ledgerewskie, RAWRzilla, Layell, bizzozeron, Aghanim, PizzaDog, Jigglypoof21 with credit to Smash 3 Team, the PMDT, Starwaffle, Akari_un, AdfroMan, Pantsface16, Kidneptune [edited by Yohan1044 and MarioDox]
+08 - Harmony Scarf Pikachu by davidvkimball with credit to Lilfut and the Smash 3C Team (Original Scarf Costume) [edited by Yohan1044 and MarioDox]
+09 - Lightbulb Pikachu by StarWaffle and KingJigglypuff [edited by Yohan1044]
+13 - Backpack Pikachu by StarWaffle, Nanobuds
+Dark - Pikachu Libre by KTH, Taiko with credit to LJSTAR [edited by Yohan1044]
+
+
+LUIGI
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - [SM64DS] Casino Luigi by KTH, LJSTAR
+Dark - Princess Peach Dress Luigi by AlGeorgeRomo, ShinF 
+
+
+CAPTAIN FALCON
+Pose by Nanobuds, model polish by tryptech, rendered by CSProject Backroom
+08 - Retro Recolors (red) - Vinegar with credit to the PMDT
+09 - Retro Recolors (green) - Vinegar with credit to the PMDT
+13 - Helmetless Falcon by JoeTE with credit to Mewtwo2000
+Dark - Mach Rider by BullockDS, Moblin 
+
+
+NESS
+Pose by Sylv, model polish by tryptech, rendered by CSProject Backroom
+13 - Ninten (Updated Design) by ShinF with credit to Tocksknock / PM Unlocked, Volya, and GameWatching [edited by EggTimer]
+Dark - Poo / Fighter Suit (for Ness) by bizzozeron with credit to the PMBR for PJ Ness Model [edited by EggTimer]
+
+
+BOWSER / KOOPA
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Red Dry Bowser Recolor by LnktheWolf
+09 - Green Dry Bowser Recolor by LnktheWolf		
+10 - Blue Dry Bowser Recolor by LnktheWolf, Nanobuds
+13 - Rookie Bowser by DarkStar
+Dark - Dark Bowser (Brawl Style) by JoeTE with credit to Mewtwo2000 (for the hair metal material)
+
+
+PEACH
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Blue/Green Team Dark Peach by TheShadowMysteryKing, TheDarkMysteryMan [with edits by davidvkimball, Yohan1044, and MetalLegacy]	
+09 - Blue/Green Team Dark Peach by TheShadowMysteryKing, TheDarkMysteryMan [with edits by davidvkimball, Yohan1044, and MetalLegacy]
+13 - Pauline Peach Recolor by Codex-9
+Dark - Rosalina Peach by davidvkimball, with credit to LenSho for the model, and mnsg for the textures
+
+
+ZELDA
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+07 - Red OoT Zelda recolor by LnktheWolf with credit to the PMDT
+08 - Green OoT Zelda recolor by LnktheWolf with credit to the PMDT
+09 - Blue OoT Zelda recolor by LnktheWolf with credit to the PMDT
+13 - Hilda Zelda by LnktheWolf with credit to the PMDT
+Dark - Young Zelda by AlGeorgeRomo, Mach7
+
+
+SHEIK
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+07 - Red OoT Sheik recolor by LnktheWolf with credit to the PMDT
+08 - Green OoT Sheik recolor by LnktheWolf with credit to the PMDT
+09 - Blue OoT Sheik recolor by LnktheWolf with credit to the PMDT
+13 - Lorulean Sheik by LnktheWolf
+Dark - Impa Sheik by AlGeorgeRomo, Mach7
+
+
+ICE CLIMBERS / POPO
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+07 - Bear Suit Climbers PM Alt (Updated) by MetalLegacy with credit to the PMDT
+08 - Bear Suit Climbers PM Alt (Updated) by MetalLegacy with credit to the PMDT 
+09 - Bear Suit Climbers PM Alt (Updated) by MetalLegacy with credit to the PMDT 
+13 - Real Ice Climbers by StarWaffle
+Dark - Ice Comrades by Theytah
+
+
+MARTH
+Pose by Kuro Kairaku, model polish by tryptech, rendered by CSProject Backroom
+13 - Hooded Marth by bizzozeron with credit to KidNeptune101 for the original models, Ledgerewski for render [edited by MarioDox]
+Dark - Prince Marth by AlGeorgeRomo, Mach 7 
+
+
+MR. GAME & WATCH / GAMEWATCH
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+09 - Teal G&W by Ca$inoWolf, MetalLegacy
+Dark - Rainbow G&W by Cynapse
+
+
+FALCO
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Assault Falco by RuKeN with credit to ASF1nk
+Dark - Panther Caroso [Falco] by Smash John
+
+
+GANONDORF
+Pose by Kuro Kairaku, model polish by tryptech, rendered by CSProject Backroom
+10 - Pig Ganon by Corshmell, Nanobuds with credit to KingJigglypuff, SOJ, PyotrLuzhin, Large Leader, Frisc0
+11 - Pig Ganon by Corshmell, Nanobuds with credit to KingJigglypuff, SOJ, PyotrLuzhin, Large Leader, Frisc0
+12 - Pig Ganon by Corshmell, Nanobuds with credit to KingJigglypuff, SOJ, PyotrLuzhin, Large Leader, Frisc0
+14 - Pig Ganon by Corshmell, Nanobuds with credit to KingJigglypuff, SOJ, PyotrLuzhin, Large Leader, Frisc0
+15 - Pig Ganon by Corshmell, Nanobuds with credit to KingJigglypuff, SOJ, PyotrLuzhin, Large Leader, Frisc0
+Dark - Phantom Ganon by HowDoISpaceJam with credit to the PMDT, JoeTE, StupidMarioFan1, Mewtwo2000
+
+
+META KNIGHT
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Beta Meta Knight Recolors by LnktheWolf with credit to the PMDT
+09 - Beta Meta Knight Recolors by LnktheWolf with credit to the PMDT
+13 - Quickdraw Meta Knight by TOCK [edited by EggTimer and MarioDox]
+Dark - NES Meta Knight (Brawl Styled) by Mach 7 with credit to AlGeorgeRomo for the model
+
+
+PIT
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Retro Palutena colored Pit by davidvkimball
+09 - Retro Cupid colored Pit by davidvkimball
+13 - Sapphire Pit by mokonagirl
+Dark - Eggplant Pit by Nefnoj 
+
+
+ZERO SUIT SAMUS
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+00 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+01 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+02 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+03 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+04 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+05 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+06 - Zero Mission Outfit ZSS by davidvkimball, MarioDox, Ca$inoWolf with credit to Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall [optimized by moblin]
+07 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall
+08 - SJS ZSS Rebuild by Theytah, jiang, Pik, StarWaffle, Albafika, KingJigglypuff, SJS, Nanobuds, Spex130, TOCK, Sandfall
+09 - Zero Suit Samus Bailey by TheDarkMysteryMan with credit to the PMDT
+13 - Brawl Zero Suit Samus by Nintendo
+Dark - Cadet Zero Suit Samus by Theytah, StarWaffle, SJS, Nanobuds, Spex130
+
+
+
+OLIMAR / PIKMIN 
+Pose by Nanobuds, with edits by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Pikmar by Nanobuds, Nefnoj, with credit to Theytah
+09 - Mushroom Olimar by Nanobuds and Nefnoj
+13 - Louie by karlo, Ninten DS™ with credit to Nanobuds for the base model [edited by MarioDox]
+Dark - Astromar by Nanobuds
+
+
+LUCAS
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+07 - Commander Lucas Recolors by BullockDS
+08 - Commander Lucas Recolors by BullockDS
+09 - Commander Lucas Recolors by BullockDS
+13 - Smash 2 Lucas for PM by SubZero2, with credit to AlGeorgeRomo for the model
+Dark - Chimera Pajamas Lucas by AlGeorgeRomo, Mach 7 
+
+
+DIDDY KONG
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Hooded Diddy recolors by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron
+09 - Hooded Diddy recolors by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+10 - Hooded Diddy recolors by HyperLink, Vinegar, AlGeorgeRomo, bizzozeron, Layell
+13 - Diddy Kong Jr. by StarWaffle
+Dark - Striker Diddy by StarWaffle
+
+
+MEWTWO
+Pose by Nanobuds, modified by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Plasma Armored Mewtwo (Copper) by LnktheWolf with credit to the PMDT
+09 - Aqua Armor Mewtwo by LnktheWolf with credit to the PMDT, and thecoolguy27 for the idea
+13 - Mega Mewtwo X by Register with credit to the PMDT
+Dark - Shadow Mewtwo (PM) by Moblin, davidvkimball with credit to Moe, Jaystring
+
+
+CHARIZARD / LIZARDON
+Pose by davidvkimball, model polish + fire element by tryptech, rendered by CSProject Backroom
+08 - Nidoking Armored Charizard recolor by Puzzled
+09 - Mega Rayquaza Armored Charizard recolor by Puzzled
+13 - Mega Charizard Y by Nanobuds with credit to xX_TheTerror_Xx
+Dark - Shadow Charizard by Theytah
+
+
+SQUIRTLE / ZENIGAME
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Shinobi Squirtle Recolors by LnktheWolf with credit to the PMDT 
+09 - Shinobi Squirtle Recolors by LnktheWolf with credit to the PMDT 
+13 - Squirtle Clone (SquirtleTwo) by Rog
+Dark - Ninja Squirtle by StarWaffle [edited by Legacy TE devs]
+
+
+IVYSAUR / FUSHIGISOU
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Substitute Ivysaur by LnktheWolf, StarWaffle, Nanobuds, Moblin, Theytah
+09 - Orange Substitute Ivysaur by LnktheWolf, StarWaffle, Nanobuds, Moblin, Theytah
+10 - Dark Blue Substitute Ivysaur by LnktheWolf, StarWaffle, Nanobuds, Moblin, Theytah
+13 - Beta Ivysaur recolor by LnktheWolf with credit to the PMDT
+Dark - Vileplume Ivysaur by AlGeorgeRomo, Mach 7 [edited by Yohan1044: tether vine]
+
+
+DEDEDE
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+09 - Golden Shogun Dedede LnktheWolf with credit to the PMDT
+13 - Shadow Dedede by L K Boost, JoeTE
+Dark - Masked Dedede by StarWaffle with credit to JoeTE
+
+LUCARIO
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+07 - Gi Lucario by the PMDT [edited by KingJigglypuff]
+08 - Gi Lucario Recolor by the PMDT [edited by KingJigglypuff] 
+09 - Dan Hibiki Gi Recolor by LnktheWolf with credit to the PMDT [edited by KingJigglypuff] 
+10 - Ken Gi Recolor by LnktheWolf with credit to the PMDT [edited by KingJigglypuff] 
+13 - Robo Lucario by Theytah [edited by MarioDox]
+Dark - Mega Lucario Model Overhaul by KingJigglypuff, Nanobuds, StarWaffle
+
+
+IKE
+Pose by Xenthos, model polish by tryptech, rendered by CSProject Backroom
+13 - Ike Climber by Spex130 with credit to SOJ
+Dark - Greil Ike by AlGeorgeRomo, Mach 7 
+
+
+ROB / ROBOT
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Red Mario Kart ROB recolor by LnktheWolf 
+09 - Green Mario Kart ROB recolor by LnktheWolf 
+10 - Blue Mario Kart ROB recolor by LnktheWolf 
+13 - Wii ROB recolors by Puzzled
+14 - Wii ROB recolors by Puzzled
+15 - Wii ROB recolors by Puzzled
+Dark - GameCube ROB by AlGeorgeRomo 
+
+
+
+JIGGLYPUFF / PURIN
+Pose by davidvkimball, model polish by tryptech, HD eyes by MetalLegacy, rendered by CSProject Backroom
+07 - Bow Tie by Theytah with credit to Nanobuds for the headband physics motionetc [edited by soopercool101]
+08 - Headband by Nanobuds, KingJigglypuff, TOCK
+09 - Officer Jenny Puff by Theytah, HypnotizeScourge
+13 - Bigglypuff by Vinegar
+Dark - El Globo by TOCK
+
+
+
+WARIO
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Tycoon Wario by malistaticy, davidvkimball
+14 - Black Tycoon Wario by malistaticy, davidvkimball, MetalLegacy
+Dark - Adventure Wario by Angelglory [with edits by Moblin]
+
+
+ROY 
+Pose by Nanobuds, model polish by tryptech, rendered by CSProject Backroom
+06 - Awakening Roy by Nanobuds, Pik, TOCK, KingJigglypuff, StarWaffle, Theytah
+07 - Awakening Roy recolors by WorseDoughnut with credit to Nanobuds, Pik, TOCK, KingJigglypuff, StarWaffle, Theytah
+08 - Awakening Roy recolors by WorseDoughnut with credit to Nanobuds, Pik, TOCK, KingJigglypuff, StarWaffle, Theytah
+09 - Awakening Roy recolors by WorseDoughnut with credit to Nanobuds, Pik, TOCK, KingJigglypuff, StarWaffle, Theytah
+13 - PM 3.6 Awakening Roy Recolor by the PMDT
+Dark - Classic Roy (Brawl Style) by Moe, SubZero2 with credit to ledgerewskie, Taiko, Tailsmiles249, Large Leader, Shun_One, Moblin, Scout, Satoshi, Aghanim, The Smash 3 Team, the PMDT, jaystring
+
+
+TOON LINK
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom 
+10 - Purple Outset Toon Link by LnktheWolf, HyperLink with credit to the PMDT
+11 - Black Outset Toon Link by LnktheWolf, HyperLink with credit to the PMDT 
+02 - Linebeck Toon Link by EggTimer, WorseDoughnut, Moblin, Xenthos, legoj15 with credit to DemonBoy, the PMDT
+13 - Linebeck Toon Link recolors by EggTimer, MetalLegacy with credit to DemonBoy and to the PMDT
+14 - Linebeck Toon Link recolors by EggTimer, MetalLegacy with credit to DemonBoy and to the PMDT
+15 - Linebeck Toon Link recolors by EggTimer, MetalLegacy with credit to DemonBoy and to the PMDT
+Dark - Conductor Toon Link by DemonBoy with credit to the PMDT
+
+
+WOLF
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+13 - Wolf (Melee Intro / StarFox 64 styled outfit) by JoeTE with credit to Mewtwo2000 (for the transparent metal shader)
+Dark - Smash 2 Wolf for PM by Moblin, SubZero2 with credit to AlGeorgeRomo for the model
+
+
+SNAKE
+Pose and model polish by tryptech, rendered by CSProject Backroom
+07 - Big Boss recolors by ledgerewskie, Codex-9, Taiko with credit to the PMDT 
+08 - Big Boss recolors by ledgerewskie, Codex-9, Taiko with credit to the PMDT 
+09 - Big Boss recolors by ledgerewskie, Codex-9, Taiko with credit to the PMDT 
+13 - Tuxedo MGS3 Snake by jaystring
+Dark - Sneaking Suit Snake by AlGeorgeRomo
+
+
+SONIC
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+09 - Gum Jet Set Radio recolor by davidvkimball, SubZero2, ishmael205, Yohan1044, MetalLegacy with credit to Psycho for the inspiration and to the PMDT 
+10 - Cube Jet Set Radio recolor by davidvkimball, SubZero2, ishmael205, Yohan1044 with credit to Psycho for the inspiration and to the PMDT [with edits by Nanobuds]
+11 - Mew Jet Set Radio recolor by SubZero, davidvkimball, Moe, Xenthos with credit to the Smash 3C team for the inspiration 
+13 - Racing Suit Sonic by AlGeorgeRomo, Mach 7
+14 - Racing Suit Sonic (green) by AlGeorgeRomo, Mach 7, MetalLegacy
+15 - Racing Suit Sonic (blue) by AlGeorgeRomo, Mach 7, MetalLegacy [with edits by Xenthos]
+Dark - Strikers Sonic by Insidious~NX~
+
+
+
+WARIO MAN 
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+00 - Biker Wario Man Ver. 1.5 by j0ker1212
+01 - Biker Wario Man Ver. 1.5 by j0ker1212
+02 - Biker Wario Man Ver. 1.5 by j0ker1212
+03 - Biker Wario Man Ver. 1.5 by j0ker1212
+04 - Biker Wario Man Ver. 1.5 by j0ker1212
+05 - Biker Wario Man Ver. 1.5 by j0ker1212
+13 - Shirtless Wario Man by Scout, davidvkimball
+14 - Shirtless Wario Man by Scout, davidvkimball
+Dark - Ninja Wario: WarioMANX by WarioManX
+
+
+GIGA BOWSER 
+Pose by davidvkimball, model polish by tryptech, rendered by CSProject Backroom
+08 - Red Giga Dry Bowser Recolor by LnktheWolf
+09 - Green Giga Dry Bowser Recolor by LnktheWolf		
+10 - Blue Giga Dry Bowser Recolor by LnktheWolf
+13 - Rookie Giga Bowser by davidvkimball
+Dark - Dark Giga Bowser by PAVGN 
+
+########################################
+Stages
+########################################
+
+Proper footstep sounds for Start Alts by soopercool101
+
+Legend: 
+A = main stage
+Z - L alt
+Y - Z alt
+X - START alt
+W - R Alt (hidden)
+
+[changes from PM 3.6 only]
+
+BATTLEFIELD
+Z - Battlefield (Melee) by the PMDT, with texture fix by sporksparks
+Y - Torn Sky Battlefield by Dranakar, Scout, WorseDoughnut, MarioDox, davidvkimball, soopercool101
+X - Lunar Battlefield by Scout, Puzzled, DukeItOut
+W - Battlefield (N64) by Mewtwo2000, Yohan1044
+
+FINAL DESTINATION
+Z - 20XX Rainbow FD by Theytah with credit to the PMDT for original FD stage.
+Y - Legacy Final Destination by WorseDoughnut, Scout, davidvkimball, Moblin, DukeItOut with credit to soopercool101
+X - Project M Final Destination by WorseDoughnut, Dranakar, Scout, davidvkimball, with credit to Diego Leal for the concept
+
+DELFINO'S SECRET [DELFINO PLAZA]
+Y - World 2-3 by Theytah [with edits by davidvkimball] 
+X - Delfino's Secret Plaza by davidvkimball, WorseDoughnut, MarioDox with credit to SOJ and DukeItOut for the idea
+
+LUIGI'S MANSION
+Z - King Boo's Illusion by Scout, soopercool101, Cahalan, DukeItOut
+Y - Dracula's Castle Secret by davidvkimball, WorseDoughnut with credit to Edwguard Flows for the Dracula's Castle base stage and the PMDT for the original Dracula's Castle stage. 
+X - Luigi's Secret by WorseDoughnut with credit to Edwguard Flows for the original omega variant. 
+
+METAL CAVERN [MUSHROOMY KINGDOM] 
+Y - Mushroomy Cavern by davidvkimball, Scout with credit to Skeleton, LlamaJuice, jlclpepe, and the PMDT.
+X - Metal Land by MarioDox, DukeItOut, davidvkimball with credit to LlamaJuice and the PMDT for the original stage. 
+
+BOWSER'S CASTLE [MARIO CIRCUIT]
+Single player mode fixes for all alts by soopercool101
+Y - SMW Bowser's Castle by davidvkimball, DukeItOut, MarioDox, soopercool101 with credit to StarWaffle for most of the models and stage assets, Scout, LlamaJuice and the PMDT for the lava model, fire enemies, Thwomp models, and Dry Bones model. 
+X - NES Bowser's Castle by WorseDoughnut, davidvkimball, Dranakar with credit to Xenozoa425, Mewtwo2000, GotHunch, LlamaJuice for some of the stage's assets
+
+KONGO JUNGLE [75M]
+Z - The Flying Krock by DukeItOut, davidvkimball, Yohan1044, Scout, with credit to Peardian for the models, thecoolguyXJ9 for the import, and BullockDS for the K. Rool Heads 
+Y - 75M Jungle by davidvkimball, soopercool101, DukeItOut, Yohan1044, MarioDox with credit to Mewtwo2000 and the PMDT for the original stage. 
+X - Hornet Hole Zone by Dranakar, davidvkimball, Scout, Yohan1044 with credit to DSX8 for the comb models
+
+RUMBLE FALLS 
+Y - Night Golden Temple Falls by Layell, Dranakar, davidvkimball, DukeItOut, Yohan1044 with credit to AuroraUnit242, PrincessRosalina, and the PMDT for the stage upon which its based
+X - Bananaville by Dranakar, Scout, davidvkimball, DukeItOut, soopercool101
+
+PIRATE SHIP
+Z - Ganon's Tower by Scout, DSX8, LegacyWolf with credit to NotZac, RARWRzilla22, Cynapse and Kurukato, Modding Workshop, Smash3c, Smash3, Brawl Vault Vigilantes and KCMM's Discord, brstms: fireluigi12, genandnic, GalaxyManX9, Muggshotter
+Y - Molgera's Castle by WorseDoughnut with credit to Theytah, LlamaJuice, Scout, soopercool101
+X - Clock Town by davidvkimball, Scout, Dranakar, DukeItOut, mawwwk, Layell with credit to KTH for the Clock Town import, Lunoz for the Skull Kid model import, and the PMDT for the Mewtwo animations used for Skull Kid
+
+HYRULE CASTLE [BRIDGE OF ELDIN]
+Y - Hyrule Courtyard Secret by Dranakar, WorseDoughnut, davidvkimball, Scout, Yohan1044 with credit to CutterKirby64 with credit to Black Boo, SmashHackers & Snoopy for the original Courtyard stage and to the PMDT for some of the background assets. 
+X - Hyrule Castle Zone by Dranakar, davidvkimball, WorseDoughnut, Yohan1044, Kirbeast, Puzzled, DukeItOut with credit to the PMDT
+
+NORFAIR
+Y - Crateria by Scout, Yohan1044 with credit to the PMDT
+X - Norfair Secret by WorseDoughnut, MarioDox with credit to the PMDT
+
+FRIGATE ORPHEON
+Z - Frigate Siege by davidvkimball, soopercool101, WorseDoughnut, DukeItOut
+Y - Metroid Lab Destination by MarioDox with credit to Theytah, Mewtwo2000 for the original background model, SOJ for the Metroid Model/Animation and the PMDT.
+X - RidleyLand by Yohan1044, Scout, Dranakar, DukeItOut
+
+YOSHI'S ISLAND (BRAWL)
+Y - Yoshi's Island Flat Night by davidvkimball with credit to soopercool101, PyotrLuzhin for the original stage
+X - Yoshi's Island (Melee) Zone by Puzzled, Theytah, Dranakar with credit to DukeItOut, davidvkimball, and the PMDT.
+
+HALBERD 
+Z - Halberd: X (Complete) by Xerom with credit to mew2ds, Ike_Lawliet, Snoopy, Nah with credit to _Data_Drain_
+Y - Halberd Daytime Airborne by davidvkimball, DukeItOut with credit to Pipapopa12, jlclpepe, rihuganon, LordNOaH, SSBBAdam and ~Frozen
+X - Halberdland by davidvkimball, WorseDoughnut, Yohan1044, DukeItOut with credit to jlclpepe, Mewtwo2000, Theytah, and the PMDT. 
+
+LYLAT CRUISE
+Y - Flatlat Cruise by WorseDoughnut, soopercool101 with credit to Syvkal & SuperGuzzi (for the Calm Lylat base)
+X - Lylat Destination by davidvkimball with credit to Yohan1044, Dranakar for the base stage model
+
+SAFFRON CITY [POKEMON STADIUM 2]
+Y - Magnet Train V2 by DukeItOut, davidvkimball, soopercool101 with credit to Skeleton for the original stage 
+X - Saffron Stadium 2 by Dranakar, davidvkimball, Scout with credit to Yohan1044, Theytah and the PMDT. 
+
+SPEAR PILLAR 
+Z - Spear Cavern by davidvkimball, Puzzled, WorseDoughnut, Yohan1044, Moblin with credit to KingJigglypuff for the new Giratina import, and E-scope12, Hope4NeWDaY for the original Spear Pillar PM stage.
+Y - Whirl Island by Dranakar, Yohan1044, WorseDoughnut, davidvkimball, with credit to Lensho
+X - Mewtwo's Lab Destination by Dranakar, davidvkimball, Yohan1044 with credit to mawwwk, Blazerrr, Muhsoce, mariokart64n, wilttilt and flamegoop for the background textures.
+
+PORT TOWN AERO DIVE
+Z - Port Town: X by Xerom with credit to Mewtwo2000 (Mute City Cylinder), edits by Yohan1044
+Y - NorTown by WorseDoughnut, davidvkimball, Yohan1044 with credit to the PMDT for the stage upon which it is based
+X - Death Race Stadium by davidvkimball, DukeItOut, WorseDoughnut, mawwwk
+
+INFINITE GLACIER [SUMMIT]
+Y - Glacier Castle by davidvkimball, WorseDoughnut, soopercool101 with credit to hotdogturtle for the original stage. 
+X - Glacier of Dreams by MarioDox, soopercool101
+
+FLAT ZONE 2
+Z - Flat Zone (Melee) by davidvkimball, Scout with credit to DSX8 for the original import. 
+Y - Flat Zone Stadium by MarioDox, Yohan1044
+X - Flat Destination by davidvkimball, MarioDox, and Yohan1044 with credit to the PMDT for the stage upon which it's based. 
+
+CASTLE SIEGE
+Y - Ruined Siege by Layell, davidvkimball
+X - Castlefield by davidvkimball, Dranakar, DukeItOut
+
+WARIO LAND [WARIOWARE INC.]
+Z - WarioWare Inc. with Turbo Mode rewards by DukeItOut
+Y - Wario’s Castle by WorseDoughnut, Scout with credit to MarioKing64DS, AlGeorgeRomo, and TheRealHeroofWinds for the original Smash 2 stage
+X - AshleyWare by the PMDT 
+
+DISTANT PLANET 
+Y - Subspace Jungle Planet by Yohan1044, davidvkimball with credit to the PMDT for the stage upon which its based
+X - Distant Cave Secret by davidvkimball, WorseDoughnut, Dranakar, MarioDox
+
+SKYWORLD
+Y - Underworld by Yohan1044 with credit to davidvkimball, WorseDoughnut, and the PMDT for the stage upon which its based.
+X - Skyfield by MarioDox, Yohan1044, DukeItOut with credit to ImNotJavin for the recolor, ClipArtPanda for the cross and the PMDT for the stage upon which its based.
+
+FOUNTAIN OF DREAMS [MARIO BROS.]
+Z - Sectonia's Gem by Scout, WorseDoughnut, Dranakar, Moblin, Theytah
+Y - Cookie Country of Dreams by Layell, Theytah, Dranakar, Yohan1044, with credit to Angelglory, Scout, Codex-9, Arko Games, Mewtwo2000 for the original stage and import
+X - Crystal Cave of Dreams by Moblin, Dranakar, Scout, WorseDoughnut
+
+FOURSIDE [NEW PORK CITY]
+Y - Fourside Planet by davidvkimball, Yohan1044 with credit to ALM5252, Zant532 for the Fourside Omega Stage
+X - New Pork Zone by Yohan1044, WorseDoughnut 
+
+SMASHVILLE
+Z - Sakuraville by t_Místico_t with credit to rihuganon [edits by davidvkimball, DukeItOut]
+Y - Oceanville by t_Místico_t with credit to Xenozoa425
+X - Optimized Beachville by Moblin with credit to pharoahfawcett, rihuganon for the original stage
+
+SHADOW MOSES ISLAND
+Z - Neutral Big Shell by davidvkimball, DukeItOut with credit to Eternal Yoshi for the original stage and ledgerewskie for working codecs.
+Y - ShadowFair by WorseDoughnut, davidvkimball, DukeItOut with credit to the PMDT for the stage upon which it's based.
+X - Shadow Moses Stadium by MarioDox, davidvkimball with credit to Olimario1892 and WorseDoughnut, and the PMDT for the stage upon which it's based
+
+GREEN HILL ZONE
+A - Green Hill Zone by the PMDT, with texture fix by DukeItOut
+Y - Sky Sanctuary Zone by Noserus
+X - Marble Hill Zone by davidvkimball, WorseDoughnut, TheGag96, Yohan1044, DukeItOut with credit to Szasz, Katakiri, pharoahfawcett, and the PMDT
+
+PICTOCHAT
+Z - Pictochat Battlefield by MarioDox, Yohan1044 with credit to the PMDT for the stage upon which it's based.
+Y - Pictochat Zone by davidvkimball, Yohan1044, MarioDox with credit to the PMDT for the stage upon which it's based.
+X - PictoChat's Secret by Puzzled, davidvkimball, MarioDox with credit to WorseDoughnut, soopercool101, and the PMDT
+
+HANENBOW
+Y - Hanenbow [BBrawl] by jlclpepe with credit to Sandfall (Stage) [edits by davidvkimball]
+X - Fountainbow by davidvkimball, WorseDoughnut, Yohan1044 with credit to Mewtwo2000 and the PMDT
+
+TEMPLE
+Y - Skyloftville V2 by Dranakar, Scout, davidvkimball, DukeItOut, soopercool101
+X - Temple of Time Ware by Dranakar, davidvkimball, Yohan1044 with credit to DSX8
+
+YOSHI'S STORY [YOSHI'S ISLAND (MELEE)]
+Y - Yoshi's Sanctuary 64 by WorseDoughnut, Scout with credit to HyperL!nk, Mewtwo2000
+X - Yoshi's FortuneWare by Dranakar, Scout, MarioDox, davidvkimball with credit to Theytah, Wingedkoopa67, ALM5252
+
+JUNGLE JAPES 
+Z - Jungle Japes M by soopercool101 with credit to the PMDT, Scout
+Y - Kongo Island by WorseDoughnut, Dranakar, davidvkimball, DukeItOut, MarioDox with credit to the PMDT for the stage upon which it's based
+X - KongoWare by Dranakar, Scout, Theytah, davidvkimball, Puzzled 
+
+ONETT
+Z - Hazardless Onett by davidvkimball, soopercool101, WorseDoughnut
+Y - Neutral Onett by soopercool101 with credit to Theytah
+X - Onettville by davidvkimball, WorseDoughnut, soopercool101, DukeItOut with credit to the PMDT for the stage parameter data, collisions, etc. 
+
+DREAMLAND [GREEN GREENS]
+Y - Dream Greens by Mewtwo2000 
+X - Autumn Dreamland V2 by MetalLegacy, Theytah with credit to XtremeDragon and Yohan1044
+
+PEACH'S CASTLE [RAINBOW CRUISE]
+Y - Daisy’s Story by davidvkimball, WorseDoughnut, Yohan1044, mawwwk with credit to LlamaJuice, Theytah, Sandfall and Mewtwo2000. 
+X - Peach’s Battlefield by Dranakar, davidvkimball
+
+CORNERIA
+Y - Sector Z Ware by soopercool101, davidvkimball 
+X - Fountain of Sauria by davidvkimball, MarioDox with credit to Edwguard Flows. 
+
+BIG BLUE
+Z - Big Blue Speedway by davidvkimball
+Y - Falcon Flyer by davidvkimball, WorseDoughnut, Yohan1044 with credit to Mewtwo2000, Theytah, Hope4NeWDaY
+X - Big Blueville by Dranakar, davidvkimball with credit to WorseDoughnut, DukeItOut, Yohan1044, and Ca$inoWolf
+
+BRINSTAR
+Y - Brinstar Depthstination by Puzzled, davidvkimball with credit to Theytah, DSX8, Mewtwo2000, AGFanProduction, and vid30g8m3h4k3r
+X - Brinstarfield by davidvkimball, Scout, Yohan1044, soopercool101 with credit to Edwguard Flows, LenSho, Ca$ino Wolf, and the PMDT.
+
+POKEMON STADIUM 2 [POKEMON STADIUM]
+A - Pokemon Stadium 2 by the PMDT, with shadow fix by Yohan1044, and monitors fix by WorseDoughnut
+Y - Ho-Oh Stadium 2 by Yohan1044 with credit to Scout, davidvkimball, LazyRed, Mewtwo2000, and LenSho for the original stage
+X - Clone Ball Stadium by WorseDoughnut, with credit to Theytah and SOJ 
+
+TRAINING ROOM
+A - Pillar Training Room by soopercool101 with credit to the PMDT
+Y - Trainingfield by davidvkimball, MarioDox, mawwwk with credit to the PMDT for the stage upon which it's based.
+X - Project M Stadium by Theytah with credit to the PMDT [edits by davidvkimball]
+W - 64 How to Play by Mewtwo2000 [edits by davidvkimball]
+
+RESULTS SCREEN
+A - Legacy TE Result Screen by denz with credit to the PMDT
+
+CONTROL CONFIGURATION STAGE 
+A - Config Training Room by soopercool101 with credit to the PMDT
+
+########################################
+Sound/Music
+########################################
+For a list of all music tracks, look for the file called "_COMPLETE SONG LIST.txt" in the LegacyTE\pf\sound\strm folder. 
+Song selection is thanks to davidvkimball, mawwwk, codes.
+Announcer pack by reddit user /u/Almanaccare, edited and mastered by reddit user /u/Roynerer.
+Customizable stage soundbank engine and RSBE changes by DukeItOut, which allows for unique soundbank sawnd files on any stage.
+
+########################################
+Menus/UI/HUD
+########################################
+
+Original CSS by Theytah, modified by davidvkimball, denz, and Yohan1044
+Wide Preview Stage Selection Screen by Yohan1044 with custom preview images by davidvkimball, Puzzled, mawwwk
+Transparent "Ready to Fight" menu modification by MetalLegacy
+Polished Top-Level menu button models by davidvkimball, Yohan1044
+Code Menu button by Yohan1044
+TE-styled replay, events, and album menus by Kirbeast 
+Custom HD GameCube buttons created by Puzzled
+Custom Special Mode icons by Puzzled
+"Turbo Mode" & "All Star" Special Mode button icons by davidvkimball
+Fireball behind "fight" text on button by davidvkimball
+Team Glow button icon by mawwwk
+Custom TE promo render (featuring Mario, Link, Samus, Pikachu, Fox, and Meta Knight) by Nanobuds and StarWaffle
+davidvkimball and WorseDoughnut for the Super Smash Bros. Legacy TE logo
+Cosmetic Standardization Project assets created by the Cosmetic Standardization Project Backroom 
+
+########################################
+Dolphin Files
+########################################
+
+The Dolphin TE build and sd.raw was compiled by davidvkimball. Initial Brawl save file provided by Elliot Gindi. The Dolphin emulator is developed and created by the Dolphin Team.
+Insta-launcher .elf file created by PyotrLuzhin and modified for TE by Yohan1044.
+Codes added:
+Default Settings Modifier for Netplay by the PMDT, Igglyboo, Brkirch, and FMK
+Press Start to skip creating save file on prompt v2 by HyperLink
+CSS Song Cycle Code (X01-X03,Y01-Y08 w/o Y06, W30) by Yohan1044, original code by Dantarion
+
+########################################
+Wii Files
+########################################
+
+Legacy TE USB loader launcher created and developer by waffeln, Kirbeast with credit to CFG devs, oggzee, usptactical, gannon, Dr. Clipper, R2-D2199, FIX94, airline38, Howard, NiTRo THe DeMoN. Based on Wanikoko SD/USB Loader 1.5, Kwiirk Yal & cios 222, Hermes uLoader 1.6 & cios 222/223+mload + many others (Sorg, nIxx, fishears, usptactical, 56Killer, WiiShizzza, hungyip84, Narolez, ...)
