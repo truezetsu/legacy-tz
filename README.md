@@ -9,3 +9,4 @@
 - Yohan1044, davidvkimball, and others for the [Masquerade Tool](https://modulous.net/mod/1614/Legacy%20TE%20Masquerade%20Tool)
 - libertyernie for [BrawlBox](https://github.com/libertyernie/brawltools), [BrawlManagers](https://github.com/libertyernie/BrawlManagers), and [LoopingAudioConverter](https://github.com/libertyernie/LoopingAudioConverter)
 - Members of [BrawlVault](http://forums.kc-mm.com/Gallery/BrawlView.php) for the wonderful mods added to this build
+- Members of [SmashCustomMusic](http://smashcustommusic.com) for pre-made BRSTMs.
