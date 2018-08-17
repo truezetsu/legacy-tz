@@ -1,3 +1,5 @@
+### ALWAYS DELETE THE PRE-EXISTING BRSTM FILE! NEVER OVERWRITE, OR ELSE THERE WILL BE SOUND ISSUES ON PLAYBACK.
+
 | Code 	| Stage 	| Previous Song Title                        	| New Song Title                                     	|
 |------	|-------	|--------------------------------------------	|----------------------------------------------------	|
 | W30  	| MENU  	| Menu 1 (Melee)                             	| Vagrancy (Samurai Champloo)                          	|
