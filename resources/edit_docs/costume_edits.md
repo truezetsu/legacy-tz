@@ -32,4 +32,4 @@
 | Toon Link			| Z-Costume			| [Deku Link](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=21592)			|
 | Yoshi          	| Orange           	| [TJ "Henry" Yoshi](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=211930) 	|
 
-* denotes that there is a minor issue with the skin and it may be replaced in the future.
+\* denotes that there is a minor issue with the skin and it may be replaced in the future.
