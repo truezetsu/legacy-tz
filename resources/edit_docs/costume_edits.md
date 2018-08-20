@@ -18,7 +18,7 @@
 | Ivysaur			| R-Costume			| [Cattle](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=31298)				|
 | Lucas				| Z-Costume			| [Gotenks](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=28490)*			|
 | Lucas				| R-Costume			| [Scott Pilgrim](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=21896)		|
-| Marth				| Z-Costume			| [Lelouche Britannia](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=13961)	|
+| Marth				| Z-Costume			| [Lelouch Britannia](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=13961)	|
 | Marth				| R-Costume			| [Mia](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=35016)					|
 | Ness           	| Skeleton         	| [Jazz Cup](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=211602)         	|
 | Ness				| Z-Costume			| [Megaman](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=206078)			|
