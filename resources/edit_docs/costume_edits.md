@@ -20,7 +20,7 @@
 | Ike				| Z-Costume			| [Trunks](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=22433)				|
 | Ike				| R-Costume			| [Cloud Strife](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=24702)		|
 | Ivysaur			| Z-Costume			| [Grotle](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=13832)				|
-| Ivysaur			| R-Costume			| [Cattle](ttp://forums.kc-mm.com/Gallery/BrawlView.php?Number=31298)				|
+| Ivysaur			| R-Costume			| [Cattle](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=31298)				|
 | Jigglypuff		| Z-Costume			| [Oreo](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=31286)**				|
 | Jigglypuff		| R-Costume			| [Angry Bird](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=31076)**		|
 | King Dedede		| Z-Costume			| [Majin Buu](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=31220)			|
