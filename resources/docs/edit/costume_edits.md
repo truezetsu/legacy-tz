@@ -2,6 +2,7 @@
 |-----------		|------------------	|--------------	|
 | Bowser			| Z-Costume			| [Groudon](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=20629)				|
 | Bowser			| R-Costume			| [Blastoise](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=30836)			|
+| Captain Falcon	| Purple			| [Aesthetic Falcon](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=216472)	|
 | Captain Falcon 	| Z-Costume        	| [Goku](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=23665)              	|
 | Captain Falcon	| R-Costume			| [Captain America](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=25478)		|
 | Charizard			| Z-Costume			| [Ridley](http://forums.kc-mm.com/Gallery/BrawlView.php?Number=12295)				|
