@@ -11,3 +11,4 @@
 - libertyernie for [BrawlBox](https://github.com/libertyernie/brawltools), [BrawlManagers](https://github.com/libertyernie/BrawlManagers), and [LoopingAudioConverter](https://github.com/libertyernie/LoopingAudioConverter)
 - Members of [BrawlVault](http://forums.kc-mm.com/Gallery/BrawlView.php) for the wonderful mods added to this build
 - Members of [SmashCustomMusic](http://smashcustommusic.com) for pre-made BRSTMs.
+- Members of the [Cosmetic Standardization Project Discord](http://discord.me/csp) for their image assets
